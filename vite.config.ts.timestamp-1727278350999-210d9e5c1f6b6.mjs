@@ -1,0 +1,15 @@
+// vite.config.ts
+import { defineConfig } from "file:///E:/Test/vite-boilerplate/node_modules/vite/dist/node/index.js";
+import react from "file:///E:/Test/vite-boilerplate/node_modules/@vitejs/plugin-react/dist/index.mjs";
+import basicSsl from "file:///E:/Test/vite-boilerplate/node_modules/@vitejs/plugin-basic-ssl/dist/index.mjs";
+var vite_config_default = defineConfig({
+  plugins: [react(), basicSsl()],
+  build: {
+    outDir: "./docs"
+  },
+  base: "/vite-boilerplate/"
+});
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcudHMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCJFOlxcXFxUZXN0XFxcXHZpdGUtYm9pbGVycGxhdGVcIjtjb25zdCBfX3ZpdGVfaW5qZWN0ZWRfb3JpZ2luYWxfZmlsZW5hbWUgPSBcIkU6XFxcXFRlc3RcXFxcdml0ZS1ib2lsZXJwbGF0ZVxcXFx2aXRlLmNvbmZpZy50c1wiO2NvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9pbXBvcnRfbWV0YV91cmwgPSBcImZpbGU6Ly8vRTovVGVzdC92aXRlLWJvaWxlcnBsYXRlL3ZpdGUuY29uZmlnLnRzXCI7aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAndml0ZSdcclxuaW1wb3J0IHJlYWN0IGZyb20gJ0B2aXRlanMvcGx1Z2luLXJlYWN0J1xyXG5pbXBvcnQgYmFzaWNTc2wgZnJvbSAnQHZpdGVqcy9wbHVnaW4tYmFzaWMtc3NsJztcclxuXHJcbi8vIGh0dHBzOi8vdml0ZWpzLmRldi9jb25maWcvXHJcbmV4cG9ydCBkZWZhdWx0IGRlZmluZUNvbmZpZyh7XHJcbiAgcGx1Z2luczogW3JlYWN0KCksIGJhc2ljU3NsKCldLFxyXG4gIGJ1aWxkOiB7XHJcbiAgICBvdXREaXI6ICcuL2RvY3MnXHJcbiAgfSxcclxuICBiYXNlOiAnL3ZpdGUtYm9pbGVycGxhdGUvJ1xyXG59KTtcclxuIl0sCiAgIm1hcHBpbmdzIjogIjtBQUFnUSxTQUFTLG9CQUFvQjtBQUM3UixPQUFPLFdBQVc7QUFDbEIsT0FBTyxjQUFjO0FBR3JCLElBQU8sc0JBQVEsYUFBYTtBQUFBLEVBQzFCLFNBQVMsQ0FBQyxNQUFNLEdBQUcsU0FBUyxDQUFDO0FBQUEsRUFDN0IsT0FBTztBQUFBLElBQ0wsUUFBUTtBQUFBLEVBQ1Y7QUFBQSxFQUNBLE1BQU07QUFDUixDQUFDOyIsCiAgIm5hbWVzIjogW10KfQo=
